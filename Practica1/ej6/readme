@@ -1,0 +1,5 @@
+ejercicio: Escriba una función que reciba un número y retorne, si es posible, el carácter correspondiente al código ASCII determinado 
+por dicho número.
+
+*compilacion: gcc -Wall -o main main.c funcion.c
+

@@ -1,0 +1,1 @@
+char retornar(int x);

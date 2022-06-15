@@ -1,0 +1,1 @@
+int comparar(char x);

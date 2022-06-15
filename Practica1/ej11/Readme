@@ -1,0 +1,2 @@
+Enunciado: Escriba una función que dado un carácter retorne su mayúscula, si está en minúscula y el mismo carácter en caso contrario.
+*compilacion: gcc -Wall -o main main.c funcion.c

@@ -1,0 +1,3 @@
+Enunciado: Escriba una función que reciba dos enteros sin signo y devuelva el promedio.
+
+*compilacion: gcc -Wall -o main main.c funcion.c

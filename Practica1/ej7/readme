@@ -1,0 +1,4 @@
+enunciado: Escriba una función que reciba dos enteros sin signo y retorne la división entre el mayor de ellos y el menor
+
+*compilacion: gcc -Wall -o main main.c division.c
+

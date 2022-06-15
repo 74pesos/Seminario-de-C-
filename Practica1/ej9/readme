@@ -1,0 +1,4 @@
+Enunciado: Escriba una funcion que dado un carácter devuelva si es un dígito o no. 
+
+*compilacion: gcc -Wall -o main main.c funcion.c
+

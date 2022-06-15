@@ -1,0 +1,5 @@
+enunciado: Escriba una función que realice la suma de los primeros n números naturales pares. El numero n se recibe como parámetro.
+a)Escriba un programa que imprima la suma de los primeros 250 números pares (invoque a la funcion anterior)
+
+*compilacion: gcc -Wall -o main main.c sumatoria.c
+

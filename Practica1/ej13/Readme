@@ -1,0 +1,2 @@
+Enunciado: Escriba una función que reciba dos enteros y devuelva el menor de ellos. Realizarlo utilizando una sola sentecia dentro de la función.
+*compilacion: gcc -Wall -o main main.c funcion.c
