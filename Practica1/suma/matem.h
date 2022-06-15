@@ -1,1 +1,0 @@
-int sumatoria(int,int);
