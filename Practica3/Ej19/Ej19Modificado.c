@@ -1,27 +1,20 @@
 #include <stdio.h>
 #include <string.h>
-#include <stdlib.h>
 int main(int argc,char *argv[])
 {
-	int ocurrencias=0;
-	int primera;
 	if(argc>1)
 	{
+		int ocurrencias=0;
 		char str[1000];
-		//for(int i=0;i<strlen(str);i++)if(str[i]=='\n') str[i]='\0';
-		primera=getchar();
-		while(primera!=EOF)
-		{	
-			fgets(str,1000,stdin);
-			for(int i=strlen(str);i>=0;i--)
+		char *pointer;
+		printf("Ingresar string por teclado\n");;
+		while((fgets(str,1000,stdin)!=NULL))
+		{
+			if(strstr(str,argv[1]))
 			{
-				str[i+1]=str[i];
+				pointer=strstr(str,argv[1]);
+				if(strcmp(pointer,argv[1])) ocurrencias++;
 			}
-			str[0]=primera;
-			if(str[strlen(str)-1]=='\n')str[strlen(str)-1]='\0';
-			if(strcmp(str,argv[1])==0) ocurrencias++;
-			primera=getchar();
-			//for(int i=0;i<strlen(str);i++)if(str[i]=='\n') str[i]='\0';
 		}
 		printf("%d\n",ocurrencias);
 		return 0;
